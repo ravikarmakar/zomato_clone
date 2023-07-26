@@ -145,6 +145,7 @@ body {
     border-radius: 15px;
 }
 .text1{
+    margin: 0;
    font-size: 1.4rem;
 }
 .box-one img {
@@ -159,6 +160,10 @@ body {
     border: 1px solid #808080;
     margin: 0.7rem;
     border-radius: 15px;
+}
+.text2{
+    margin: 0;
+    font-size: 1.4rem;
 }
 .box-two img {
     width: 100%;
