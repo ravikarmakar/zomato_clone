@@ -136,34 +136,44 @@ body {
    justify-content: center;
    flex-wrap: wrap;
    margin-top: 2rem;
+   /* background-color: bisque; */
 }
 .box-one {
+    cursor: pointer;
     width: 540px;
-    height: 260px;
-    border: 1px solid #808080;
+    height: 263px;
+    border: 1px solid #d6d5d5;
     margin: 0.7rem;
     border-radius: 15px;
 }
 .text1{
     margin: 0;
-   font-size: 1.4rem;
+    margin-left:1.2rem ;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing:0.8px;
 }
 .box-one img {
     width: 100%;
     object-fit: cover;
     height: 180px;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0; 
 }
 .box-two {
+    cursor: pointer;
     width: 540px;
-    height: 260px;
-    border: 1px solid #808080;
+    height: 263px;
+    border: 1px solid #d6d5d5;
     margin: 0.7rem;
     border-radius: 15px;
 }
 .text2{
     margin: 0;
-    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left:1.2rem ;
+    font-size: 1.05rem;
+    opacity: 0.8;
 }
 .box-two img {
     width: 100%;
@@ -171,3 +181,99 @@ body {
     height: 180px;
     border-radius: 15px 15px 0 0;
 }
+
+
+.container2{
+    position: relative;
+    margin: 5% 13.8% 0 13.8%;
+   /* background-color: aqua; */
+}
+.container2 h1 {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 450;
+    opacity: 0.8;
+}
+.text-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-info p {
+   font-size: 1.15rem;
+   opacity: 0.9;
+   font-weight: 300;
+   margin-left: 4px;
+}
+.text-info a {
+    text-decoration: none;
+    color:#e57a7a ;
+}
+.food-item-list {
+    margin-top: 10px;
+    display: flex;
+  /* flex-wrap: wrap; */
+  
+}
+
+.prop {
+    margin: 6px;
+    height: 320px;
+    width: 268px; 
+    background-color: #e57a7a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* .card-one {
+   cursor: pointer;
+} */
+.card-one img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+}
+.text-content   {
+ position: absolute;
+ bottom: 0px;
+ margin-bottom: 1rem;
+ margin-left: 1rem;
+ 
+ 
+}
+.text3 {
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.5px;
+}
+.text4 {
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight:400;
+}
+
+
+.card-two img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+ }
+
+ .card-three img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+ }
+
+ .card-four img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+ }
