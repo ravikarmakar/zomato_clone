@@ -139,7 +139,7 @@ body {
    /* background-color: bisque; */
 }
 .box-one {
-    transition: 0.4s;
+    transition: 0.4s; 
     cursor: pointer;
     width: 540px;
     height: 263px;
