@@ -139,6 +139,7 @@ body {
    /* background-color: bisque; */
 }
 .box-one {
+    transition: 0.4s; 
     cursor: pointer;
     width: 540px;
     height: 263px;
@@ -161,6 +162,7 @@ body {
     border-radius: 15px 15px 0 0; 
 }
 .box-two {
+    transition: 0.4s;
     cursor: pointer;
     width: 540px;
     height: 263px;
@@ -276,4 +278,27 @@ body {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+ }
+
+
+ /* hover effect */
+ .container1 .box-one:hover{
+    transition: 0.3s;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 30px rgb(84, 77, 77);
+ }
+ .container1 .box-two:hover{
+    transition: 0.3s;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 30px rgb(84, 77, 77);
+ }
+
+ /* Clicking effect  */
+ .container1 .box-one:active{
+    transition: 0.3s;
+    transform: scale(0.97);
+ }
+ .container1 .box-two:active{
+    transition: 0.3s;
+    transform: scale(0.97);
  }
