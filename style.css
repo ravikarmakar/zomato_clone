@@ -162,6 +162,7 @@ body {
     border-radius: 15px 15px 0 0; 
 }
 .box-two {
+    transition: 0.4s;
     cursor: pointer;
     width: 540px;
     height: 263px;
